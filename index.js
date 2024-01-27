@@ -6,9 +6,9 @@ const cuisineParentContainer = document.querySelector(".cuisine-filter");
 const searchBox = document.querySelector(".input");
 console.log(searchBox)
 
-const RECIPEURL = "https://recipeapi.prakashsakari.repl.co/api/recipes";
+const RECIPEURL = "http://localhost:3000/api/recipes";
 const CUISINEURL =
-  "https://recipeapi.prakashsakari.repl.co/api/recipes/cuisines";
+  "http://localhost:3000/api/recipes/cuisines";
 
 let searchValue = "";
 let filteredArrOfRecipes = [];
